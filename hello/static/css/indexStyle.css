@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#serviceCardIndex1 {
+    background-color: #C39EA0;
+}
+
+#serviceCardIndex2 {
+    background-color: #9fa8a3;
+}
+
+#serviceCardIndex3 {
+    background-color: #B89F5D;
+}
+
+#serviceCardIndex4 {
+    background-color: #5A7670;
+}
+
+.serviceCard-index:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: #c5d5cb;
+}
+
+.card:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    /* background-color: rgb(177, 169, 169); */
+}
+
+
+
+.second {
+    margin-left: 5%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 53%; */
+}
+
+.second a {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    line-height: 70px;
+    box-shadow: 1px, 4px, 2px, 2px rgb(4, 48, 48);
+}
+
+a i {
+    transition: all 0.3sec linear;
+}
+
+a:hover i {
+    transform: scale(1.2);
+}
+
+.second i {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

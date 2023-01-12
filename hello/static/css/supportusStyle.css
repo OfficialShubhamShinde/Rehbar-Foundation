@@ -1,0 +1,47 @@
+    #supportcard1 {
+        background-color: #C39EA0;
+    }
+
+    #supportcard2 {
+        background-color: #9fa8a3;
+    }
+
+    #supportcard3 {
+        background-color: #B89F5D;
+    }
+
+    #supportcard4 {
+        background-color: #5A7670;
+    }
+
+    svg {
+        margin-top: 20px;
+    }
+
+    #headingsupportus {
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .card:hover {
+        transition: 1s;
+        transform: scale(1.1);
+        background-color: rgb(199, 199, 199);
+    }
+
+    #boxes2:hover {
+        transform: scale(1.1)
+    }
+
+    .container {
+        background-color: white;
+    }
+
+    body {
+        background-color: rgb(241, 241, 241);
+    }
+
+    .container{
+        background-color: white;
+    }
